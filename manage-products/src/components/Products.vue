@@ -45,8 +45,8 @@
     <div class="text-center mb-5">
         <v-pagination
           v-model="page"
-          :length="6"
-          :total-visible="5"
+          :length="4"
+          :total-visible="4"
           circle
           @click="fetch()"
         ></v-pagination>
